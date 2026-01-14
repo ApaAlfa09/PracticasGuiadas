@@ -33,4 +33,17 @@ public class Persona {
     public boolean addPet(Pet pet){
         return petManager.addPet(pet);
     }
+
+    public boolean removePet(Pet pet){
+        return petManager.removePet(pet);
+    }
+
+    public Pet[] getPets(){
+        return petManager.getPets();
+    }
+
+    public boolean updatePets(Pet pet, int index){
+        return petManager.updatePets(pet, index);
+    }
+
 }
